@@ -1,0 +1,98 @@
+﻿body {
+    font-family: 'Bahnschrift', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.add-user{
+    margin-bottom: 30px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 600px;
+    margin-bottom: 15px;
+}
+
+h1, .titulo {
+    text-align: center;
+    color: #007bff;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline-block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100px;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+    input[type="text"]:focus,
+    input[type="password"]:focus,
+    select:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+asp\:button, input[type="submit"], button {
+    background-color: #999999;
+    color: #333333;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+    asp\:button:hover, input[type="submit"]:hover, button:hover {
+        background-color: #888888;
+    }
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+p {
+    margin-top: 20px;
+}
+

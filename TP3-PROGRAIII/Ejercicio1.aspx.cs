@@ -40,6 +40,20 @@ namespace TP3_PROGRAIII
         protected void btnAgregarUsuario_Click(object sender, EventArgs e)
         {
 
+
+            if (txtContraseña.Text != txtRepeContraseña.Text)
+            {
+                errorTxt.Text = "Las contraseñas no coinciden.";
+                return;
+            }
+
+            ingreso.Text = "Bienvenido " + txtUsuario.Text;
+
+        }
+
+        protected void btnInicioASPX_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Inicio.aspx");
         }
     }
 }
