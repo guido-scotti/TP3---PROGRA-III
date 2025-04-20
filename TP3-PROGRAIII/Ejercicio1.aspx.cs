@@ -11,8 +11,8 @@ namespace TP3_PROGRAIII
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
-		}
+            
+        }
 
         protected void btnLocalidad_Click(object sender, EventArgs e)
         {
@@ -46,7 +46,7 @@ namespace TP3_PROGRAIII
                 errorTxt.Text = "Las contraseñas no coinciden.";
                 return;
             }
-
+            errorTxt.Text = "";
             ingreso.Text = "Bienvenido " + txtUsuario.Text;
 
         }
