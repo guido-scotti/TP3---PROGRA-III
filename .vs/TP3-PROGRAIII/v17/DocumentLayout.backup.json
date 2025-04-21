@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{15FE4C3E-523C-42F1-A9C6-63566D1B5374}|TP3-PROGRAIII\\TP3-PROGRAIII.csproj|solutionrelative:tp3-prograiii\\ejercicio1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15FE4C3E-523C-42F1-A9C6-63566D1B5374}|TP3-PROGRAIII\\TP3-PROGRAIII.csproj|c:\\users\\famil\\onedrive\\documentos\\tp3---progra-iii\\tp3-prograiii\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{15FE4C3E-523C-42F1-A9C6-63566D1B5374}|TP3-PROGRAIII\\TP3-PROGRAIII.csproj|C:\\Users\\famil\\OneDrive\\Documentos\\TP3---PROGRA-III\\tp3-prograiii\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{15FE4C3E-523C-42F1-A9C6-63566D1B5374}|TP3-PROGRAIII\\TP3-PROGRAIII.csproj|solutionrelative:tp3-prograiii\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{15FE4C3E-523C-42F1-A9C6-63566D1B5374}|TP3-PROGRAIII\\TP3-PROGRAIII.csproj|C:\\Users\\famil\\OneDrive\\Documentos\\TP3---PROGRA-III\\tp3-prograiii\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15FE4C3E-523C-42F1-A9C6-63566D1B5374}|TP3-PROGRAIII\\TP3-PROGRAIII.csproj|solutionrelative:tp3-prograiii\\ejercicio1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15FE4C3E-523C-42F1-A9C6-63566D1B5374}|TP3-PROGRAIII\\TP3-PROGRAIII.csproj|C:\\Users\\famil\\OneDrive\\Documentos\\TP3---PROGRA-III\\tp3-prograiii\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{15FE4C3E-523C-42F1-A9C6-63566D1B5374}|TP3-PROGRAIII\\TP3-PROGRAIII.csproj|solutionrelative:tp3-prograiii\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +36,7 @@
               "RelativeDocumentMoniker": "TP3-PROGRAIII\\Ejercicio1.aspx.cs",
               "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\TP3---PROGRA-III\\TP3-PROGRAIII\\Ejercicio1.aspx.cs",
               "RelativeToolTip": "TP3-PROGRAIII\\Ejercicio1.aspx.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAMwC4AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwDAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-15T23:56:24.402Z",
               "IsPinned": true,
@@ -46,9 +50,10 @@
               "RelativeDocumentMoniker": "TP3-PROGRAIII\\style.css",
               "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\TP3---PROGRA-III\\TP3-PROGRAIII\\style.css",
               "RelativeToolTip": "TP3-PROGRAIII\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-04-18T22:00:44.44Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -61,8 +66,20 @@
               "RelativeToolTip": "TP3-PROGRAIII\\Ejercicio1.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-04-15T23:54:23.98Z",
+              "WhenOpened": "2025-04-18T23:02:09.75Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "inicio.aspx",
+              "DocumentMoniker": "C:\\Users\\famil\\OneDrive\\Documentos\\TP3---PROGRA-III\\TP3-PROGRAIII\\inicio.aspx",
+              "RelativeDocumentMoniker": "TP3-PROGRAIII\\inicio.aspx",
+              "ToolTip": "C:\\Users\\famil\\OneDrive\\Documentos\\TP3---PROGRA-III\\TP3-PROGRAIII\\inicio.aspx",
+              "RelativeToolTip": "TP3-PROGRAIII\\inicio.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-04-18T23:00:28.882Z"
             }
           ]
         }

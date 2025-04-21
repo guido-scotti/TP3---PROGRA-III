@@ -39,13 +39,14 @@ namespace TP3_PROGRAIII
 
         protected void btnAgregarUsuario_Click(object sender, EventArgs e)
         {
-
+            txtUsuario.Text.Trim();
 
             if (txtContraseña.Text != txtRepeContraseña.Text)
             {
                 errorTxt.Text = "Las contraseñas no coinciden.";
                 return;
             }
+            errorTxt.Text = "";
 
             ingreso.Text = "Bienvenido " + txtUsuario.Text;
 
