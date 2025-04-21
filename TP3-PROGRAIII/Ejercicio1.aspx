@@ -24,20 +24,19 @@
 
             <asp:Label ID="lblLocalidad" runat="server" 
                 Font-Bold="True" Font-Names="Bahnschrift" 
-                Font-Size="Medium" Text="Ingrese una localidad: ">
-            </asp:Label>
+                Font-Size="Medium" Text="Ingrese una localidad: "> </asp:Label>
 
             &nbsp;
             <asp:TextBox ID="txtLocalidad" runat="server" 
                 Font-Bold="True" Font-Names="Bahnschrift" 
-                Font-Size="Medium" Width="205px">
-            </asp:TextBox>
+                Font-Size="Medium" Width="205px"> </asp:TextBox>
 
             &nbsp;
             <asp:Button ID="btnLocalidad" runat="server" 
-                BackColor="#999999" Font-Bold="True" 
+                Font-Bold="True" 
                 Font-Names="Bahnschrift" Font-Size="Medium" 
-                ForeColor="#333333" Width="150px"
+                Width="150px"
+                class="btn"
                 Text="Guardar localidad"
                 OnClick="btnLocalidad_Click"
                 ValidationGroup="LocalidadValidation" />
@@ -51,11 +50,10 @@
                 ¡Ingrese una localidad!
             </asp:RequiredFieldValidator>
 
-            <div styel="margin-bottom:20px;">
+            <div styel="margin-bottom:30px;">
                 <asp:Label ID="lblMensaje" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" ForeColor="#CC0000">
-                </asp:Label>
+                    Font-Size="Medium" ForeColor="#CC0000"> </asp:Label>
             </div>
         </div>
         
@@ -66,8 +64,7 @@
                 <asp:Label ID="lblUsuariosTitulo" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
                     Font-Size="X-Large" ForeColor="Blue" 
-                    Text="- USUARIOS - ">
-                </asp:Label>
+                    Text="- USUARIOS - "> </asp:Label>
                 <br /><br />
             </div>
 
@@ -76,14 +73,12 @@
 
                 <asp:Label ID="lblNombreUsuario" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Text="Nombre de usuario: ">
-                </asp:Label>
+                    Font-Size="Medium" Text="Nombre de usuario: "> </asp:Label>
         
                 &nbsp;
                 <asp:TextBox ID="txtUsuario" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Width="180px">
-                </asp:TextBox>
+                    Font-Size="Medium" Width="180px"> </asp:TextBox>
 
                 &nbsp;
                 <asp:RequiredFieldValidator ID="rfvNombre" runat="server" 
@@ -98,14 +93,12 @@
             <div class="form-row">
                 <asp:Label ID="lblContraseña" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Text="Contraseña: ">
-                </asp:Label>
+                    Font-Size="Medium" Text="Contraseña: "> </asp:Label>
             
                 &nbsp;&nbsp;
                 <asp:TextBox ID="txtContraseña" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" TextMode="Password" Width="180px">
-                </asp:TextBox>
+                    Font-Size="Medium" TextMode="Password" Width="180px"> </asp:TextBox>
 
                 &nbsp;
                 <asp:RequiredFieldValidator ID="rfvContraseña" runat="server" 
@@ -121,14 +114,12 @@
 
                 <asp:Label ID="lblRepetirContra" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Text="Repita la contraseña: ">
-                </asp:Label>
+                    Font-Size="Medium" Text="Repita la contraseña: "> </asp:Label>
 
                 &nbsp;
                 <asp:TextBox ID="txtRepeContraseña" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" TextMode="Password" Width="180px">
-                </asp:TextBox>
+                    Font-Size="Medium" TextMode="Password" Width="180px"> </asp:TextBox>
 
                 &nbsp;
                 <asp:RequiredFieldValidator ID="rfvContraseñaRepe" runat="server" 
@@ -144,14 +135,12 @@
             <div class="form-row">
                 <asp:Label ID="lblCorreo" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Text="Correo electrónico: ">
-                </asp:Label>
+                    Font-Size="Medium" Text="Correo electrónico: "> </asp:Label>
 
                 &nbsp;
                 <asp:TextBox ID="txtCorreo" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Width="180px">
-                </asp:TextBox>
+                    Font-Size="Medium" Width="180px"> </asp:TextBox>
 
                 &nbsp;
                 <!-- Campo vacío -->
@@ -179,14 +168,12 @@
 
                 <asp:Label ID="lblCP" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Text="CP: ">
-                </asp:Label>
+                    Font-Size="Medium" Text="CP: "> </asp:Label>
 
                 &nbsp;
                 <asp:TextBox ID="txtCP" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Width="180px">
-                </asp:TextBox>
+                    Font-Size="Medium" Width="180px"> </asp:TextBox>
 
         
                 <!-- Campo vacío -->
@@ -227,14 +214,13 @@
 
                 <asp:Label ID="lblElegirLocalidades" runat="server" 
                     Font-Bold="True" Font-Names="Bahnschrift" 
-                    Font-Size="Medium" Text="Localidades: ">
-                </asp:Label>
+                    Font-Size="Medium" Text="Localidades: "> </asp:Label>
 
                 &nbsp;
                 <asp:DropDownList ID="ddlElegirLocalidades" runat="server" 
                     BackColor="White" Font-Bold="True" 
                     Font-Names="Bahnschrift" Font-Size="Medium" Width="180px">
-                    <asp:ListItem></asp:ListItem>
+                    <asp:ListItem>-- Seleccione --</asp:ListItem>
                 </asp:DropDownList>
 
                 &nbsp;
@@ -249,9 +235,9 @@
             <!-- Botón Agregar Usuario -->
             <div class="add-user">
                 <asp:Button ID="btnAgregarUsuario" runat="server" 
-                    BackColor="#999999" Font-Bold="True" 
+                    Font-Bold="True" 
                     Font-Names="Bahnschrift" Font-Size="Medium" 
-                    ForeColor="#333333" Width="140px"
+                    class="btn" Width="140px"
                     OnClick="btnAgregarUsuario_Click"
                     Text="Agregar usuario" />
 
@@ -263,10 +249,11 @@
             <!-- Botón a Inicio -->
             <div>
                 <asp:Button ID="btnInicioASPX" runat="server" 
-                    BackColor="Gray" Font-Bold="True" 
+                    Font-Bold="True" 
                     Font-Names="Bahnschrift" Font-Size="Medium" 
                     CausesValidation="false" 
-                    ForeColor="Blue" Text="Ir a Inicio.aspx" OnClick="btnInicioASPX_Click" />
+                    class="btn"
+                    Text="Ir a Inicio.aspx" OnClick="btnInicioASPX_Click" />
             </div>
         </div>
 

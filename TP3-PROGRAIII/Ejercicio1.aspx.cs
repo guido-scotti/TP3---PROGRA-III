@@ -11,7 +11,7 @@ namespace TP3_PROGRAIII
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
-            
+
         }
 
         protected void btnLocalidad_Click(object sender, EventArgs e)
@@ -44,10 +44,20 @@ namespace TP3_PROGRAIII
             if (txtContraseña.Text != txtRepeContraseña.Text)
             {
                 errorTxt.Text = "Las contraseñas no coinciden.";
+                ingreso.Text = "";
                 return;
             }
-            errorTxt.Text = "";
-            ingreso.Text = "Bienvenido " + txtUsuario.Text;
+
+            ingreso.Text = "Bienvenido/a " + txtUsuario.Text;
+
+            errorTxt.Text          = "";
+            txtUsuario.Text        = "";
+            txtContraseña.Text     = "";
+            txtRepeContraseña.Text = "";
+            txtCP.Text             = "";
+            txtCorreo.Text         = "";
+            ddlElegirLocalidades.SelectedIndex = 0;
+            lblMensaje.Text = "";
 
         }
 
